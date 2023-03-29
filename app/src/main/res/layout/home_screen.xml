@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeActivity"
+    >
+
+    <ImageView
+        android:layout_width="172dp"
+        android:layout_height="172dp"
+        android:id="@+id/icon_view"
+        android:src="@drawable/book_stack"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/math_questions_title"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@id/icon_view"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:text="SAT\n Math Questions"
+        tools:textAlignment="center" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/background_dark"
+    android:layout_marginTop="180dp"
+        android:id="@+id/br"
+        />
+
+    <Button
+        android:id="@+id/daily_questions"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/br"
+        android:layout_marginTop="16dp"
+        android:background="@color/red"
+        android:text="Daily quiz"
+        android:textColor="@color/white"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/background_dark"
+        android:layout_marginTop="16dp"
+        android:id="@+id/br2"
+        android:layout_below="@id/daily_questions"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/br2"
+
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/br2"
+        android:orientation="vertical"
+        android:id="@+id/tests_container"
+/>
+    </ScrollView>
+</RelativeLayout>

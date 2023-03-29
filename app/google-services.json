@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "836178794134",
+    "project_id": "satmath-26673",
+    "storage_bucket": "satmath-26673.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836178794134:android:192fe3950ff16f714ed4b7",
+        "android_client_info": {
+          "package_name": "sat.math.quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836178794134-pfof1eojv84uubsi1eq8kkfnkiu5ot4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7N4bQP7FTLmSAB71R1536nRCp-R8gg00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836178794134-pfof1eojv84uubsi1eq8kkfnkiu5ot4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
